@@ -48,5 +48,3 @@ const data = [
 // Take the data above and display it as tiles on the page
 
 
-
-
