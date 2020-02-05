@@ -56,3 +56,10 @@ nav .container ul li {
 CARDS
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Your styles go here */
+
+
+.card {
+    border: 2px solid black;
+
+    
+}
