@@ -46,5 +46,27 @@ const data = [
 
 // Instructions
 // Take the data above and display it as tiles on the page
+let html = ""
+const fillCards = document.querySelector('.cards-wrapper')
+// debugger
 
+for (info of data) {
+    html = html + `
+    <div class="cards" style="background-color:${info.color}">
+    <div class="heading-container">
+    <h3>${info.topic}</h3>
+    <h4>${info.title}</h4>
+</div>
+<div class="button">Read for ${info.price}</div>
+</div>`
+
+}
+
+
+fillCards.innerHTML += html
+
+// debugger
+
+
+ 
 
