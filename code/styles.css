@@ -58,8 +58,13 @@ CARDS
 /* Your styles go here */
 
 
-.card {
+.cards {
+    display: flex;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
     border: 2px solid black;
-
-    
+    border-radius: 10px;
 }
+
