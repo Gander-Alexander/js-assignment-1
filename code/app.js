@@ -65,8 +65,7 @@ for (info of data) {
 
 fillCards.innerHTML += html
 
-// debugger
+
 
 
  
-
