@@ -61,12 +61,10 @@ CARDS
 .cards-wrapper {
     padding: 2%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    display: grid;
-    grid-column-gap: 20px;
-    grid-row-gap: 30px;
-    grid-template-columns: 280px 280px 280px;
-    grid-template-rows: 270px;
+    max-width: 950px;
+    margin: auto;
 }
 
 .button {
@@ -86,6 +84,7 @@ CARDS
     width: 275px;
     height: 275px;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .heading-container {
@@ -103,16 +102,5 @@ h4 {
     font-size: 20px;
 }
 
-@media screen and (max-width: 900px) {
-    .cards-wrapper {
-        grid-template-columns: 280px 280px;
-        grid-template-rows: 270px;
-    }
-}
 
-@media screen and (max-width: 600px) {
-    .cards-wrapper {
-        grid-template-columns: 280px;
-        grid-template-rows: 270px;
-    }
-}
+
